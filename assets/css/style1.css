@@ -5,8 +5,9 @@
     - cover background with the "map-bg.jpg" image in the images directory. 
 */
 body{
-    font-family: "Lato" 18px;
-    background-attachment: local;
+    font-family: "Lato";
+    font:18px;
+    background-size: cover;
     background-image: url(../images/map-bg.jpg);
 }
 nav {
@@ -37,13 +38,16 @@ header h1{
 
 #menu {
     columns: 400px 2;
-    column-gap: 100px;
+    column-gap: 50px;
     column-rule:  2px dashed  rosybrown;
     
 }
 
-section {column-rule-style: dashed 2px rosybrown
+section {
+    column-rule-style: dashed 2px rosybrown;
     padding-bottom: 50px;
+    font-size: large;
+
 }
 
 h2 {
@@ -57,7 +61,7 @@ h2 {
 */
 
 h2{
-font-variant-caps: all-small-caps;
+font-variant: small-caps;
 color: #6d4c41;
 }
 /* 
